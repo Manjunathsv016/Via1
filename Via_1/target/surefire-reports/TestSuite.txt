@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 16.623 sec <<< FAILURE!
+oneWayFromTextField(Bus.Bus_Oneway_001Test)  Time elapsed: 0.026 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Bus.Bus_Oneway_001Test.oneWayFromTextField(Bus_Oneway_001Test.java:25)
+
+negativeFromTextField(Bus.Bus_Oneway_002Test)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at Bus.Bus_Oneway_002Test.negativeFromTextField(Bus_Oneway_002Test.java:20)
+
+oneWayFromTextField(Bus.Bus_Oneway_003Test)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Bus.Bus_Oneway_003Test.oneWayFromTextField(Bus_Oneway_003Test.java:19)
+
+negativeToTextField(Bus.Bus_Oneway_004Test)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Bus.Bus_Oneway_004Test.negativeToTextField(Bus_Oneway_004Test.java:14)
+
+searchButton(Bus.ClickOnSearchButtonTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at Bus.ClickOnSearchButtonTest.searchButton(ClickOnSearchButtonTest.java:11)
+

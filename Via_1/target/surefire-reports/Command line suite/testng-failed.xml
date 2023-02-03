@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Bus.ClickOnSearchButtonTest">
+        <methods>
+          <include name="browserTermination"/>
+          <include name="browserSetUp"/>
+          <include name="searchButton"/>
+        </methods>
+      </class> <!-- Bus.ClickOnSearchButtonTest -->
+      <class name="Bus.Bus_Oneway_004Test">
+        <methods>
+          <include name="browserTermination"/>
+          <include name="negativeToTextField"/>
+          <include name="browserSetUp"/>
+        </methods>
+      </class> <!-- Bus.Bus_Oneway_004Test -->
+      <class name="Bus.Bus_Oneway_001Test">
+        <methods>
+          <include name="browserTermination"/>
+          <include name="oneWayFromTextField"/>
+          <include name="browserSetUp"/>
+        </methods>
+      </class> <!-- Bus.Bus_Oneway_001Test -->
+      <class name="Bus.Bus_Oneway_002Test">
+        <methods>
+          <include name="browserTermination"/>
+          <include name="browserSetUp"/>
+          <include name="negativeFromTextField"/>
+        </methods>
+      </class> <!-- Bus.Bus_Oneway_002Test -->
+      <class name="Bus.Bus_Oneway_003Test">
+        <methods>
+          <include name="browserTermination"/>
+          <include name="browserSetUp"/>
+          <include name="oneWayFromTextField"/>
+        </methods>
+      </class> <!-- Bus.Bus_Oneway_003Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
